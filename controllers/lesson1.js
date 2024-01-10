@@ -1,5 +1,5 @@
 const homeRoute = (req, res) => {
-    res.send('Welcome');
+    res.send('Welcome Faby');
 };
 
 const marioRoute = (req, res) => {
