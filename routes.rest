@@ -1,32 +1,32 @@
 // Localhost Routes
 #Home
-http://localhost:4000/
+GET http://localhost:4000/
 #Mario Route
-http://localhost:4000/mario
+GET http://localhost:4000/mario
 #Luigi Route
-http://localhost:4000/luigi
+GET http://localhost:4000/luigi
 #All Contacts Route
-http://localhost:4000/contacts
+GET http://localhost:4000/contacts
 #Mario Contact Info
-http://localhost:4000/contacts/65a61fc7c9ae3371bad8b039
+GET http://localhost:4000/contacts/65a61fc7c9ae3371bad8b039
 #Faby Contact Info
-http://localhost:4000/contacts/65a6202dc9ae3371bad8b03b
+GET http://localhost:4000/contacts/65a6202dc9ae3371bad8b03b
 #Caden Contact Info
-http://localhost:4000/contacts/65a6208fc9ae3371bad8b03c
+GET http://localhost:4000/contacts/65a6208fc9ae3371bad8b03c
 
 
 // Render Routes
 #Home
-https://cse341-winter24-1hz0.onrender.com/
+GET https://cse341-winter24-1hz0.onrender.com/
 #Mario Route
-https://cse341-winter24-1hz0.onrender.com/mario
+GET https://cse341-winter24-1hz0.onrender.com/mario
 #Luigi Route
-https://cse341-winter24-1hz0.onrender.com/luigi
+GET https://cse341-winter24-1hz0.onrender.com/luigi
 #All Contacts Route
-https://cse341-winter24-1hz0.onrender.com/contacts
+GET https://cse341-winter24-1hz0.onrender.com/contacts
 #Mario Contact Info
-https://cse341-winter24-1hz0.onrender.com/contacts/65a61fc7c9ae3371bad8b039
+GET https://cse341-winter24-1hz0.onrender.com/contacts/65a61fc7c9ae3371bad8b039
 #Faby Contact Info
-https://cse341-winter24-1hz0.onrender.com/contacts/65a6202dc9ae3371bad8b03b
+GET https://cse341-winter24-1hz0.onrender.com/contacts/65a6202dc9ae3371bad8b03b
 #Caden Contact Info
-https://cse341-winter24-1hz0.onrender.com/contacts/65a6208fc9ae3371bad8b03c
+GET https://cse341-winter24-1hz0.onrender.com/contacts/65a6208fc9ae3371bad8b03c
