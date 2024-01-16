@@ -16,3 +16,17 @@ http://localhost:4000/contacts/65a6208fc9ae3371bad8b03c
 
 
 // Render Routes
+#Home
+https://cse341-winter24-1hz0.onrender.com/
+#Mario Route
+https://cse341-winter24-1hz0.onrender.com/mario
+#Luigi Route
+https://cse341-winter24-1hz0.onrender.com/luigi
+#All Contacts Route
+https://cse341-winter24-1hz0.onrender.com/contacts
+#Mario Contact Info
+https://cse341-winter24-1hz0.onrender.com/contacts/65a61fc7c9ae3371bad8b039
+#Faby Contact Info
+https://cse341-winter24-1hz0.onrender.com/contacts/65a6202dc9ae3371bad8b03b
+#Caden Contact Info
+https://cse341-winter24-1hz0.onrender.com/contacts/65a6208fc9ae3371bad8b03c
