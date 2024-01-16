@@ -1,0 +1,18 @@
+// Localhost Routes
+#Home
+http://localhost:4000/
+#Mario Route
+http://localhost:4000/mario
+#Luigi Route
+http://localhost:4000/luigi
+#All Contacts Route
+http://localhost:4000/contacts
+#Mario Contact Info
+http://localhost:4000/contacts/65a61fc7c9ae3371bad8b039
+#Faby Contact Info
+http://localhost:4000/contacts/65a6202dc9ae3371bad8b03b
+#Caden Contact Info
+http://localhost:4000/contacts/65a6208fc9ae3371bad8b03c
+
+
+// Render Routes
