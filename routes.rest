@@ -1,32 +1,78 @@
 // Localhost Routes
-#Home
+# Home
 GET http://localhost:4000/
-#Mario Route
+# Mario Route
 GET http://localhost:4000/mario
-#Luigi Route
+# Luigi Route
 GET http://localhost:4000/luigi
-#All Contacts Route
+# All Contacts Route
 GET http://localhost:4000/contacts
-#Mario Contact Info
+# Mario Contact Info
 GET http://localhost:4000/contacts/65a61fc7c9ae3371bad8b039
-#Faby Contact Info
+# Faby Contact Info
 GET http://localhost:4000/contacts/65a6202dc9ae3371bad8b03b
-#Caden Contact Info
+# Caden Contact Info
 GET http://localhost:4000/contacts/65a6208fc9ae3371bad8b03c
+
+# Create New Contact Document
+POST http://localhost:4000/contacts
+{
+  "firstName": "Walter",
+  "lastName": "White",
+  "email": "heisenberg@polloshermanos.com",
+  "favoriteColor": "Light Blue",
+  "birthday": "1958-09-07T00:00:00.000Z"
+}
+
+# Update an existing Document
+PUT http://localhost:4000/contacts/65afc234d5956a795d608670
+{
+  "firstName": "Cristiano",
+  "lastName": "Ronaldo",
+  "email": "cristiano@cr7.com",
+  "favoriteColor": "White",
+  "birthday": "1985-02-05T00:00:00.000Z"
+}
+
+# Delete an existing Document
+DELETE http://localhost:4000/contacts/65afc4a1d5956a795d608672
 
 
 // Render Routes
-#Home
+# Home
 GET https://cse341-winter24-1hz0.onrender.com/
-#Mario Route
+# Mario Route
 GET https://cse341-winter24-1hz0.onrender.com/mario
-#Luigi Route
+# Luigi Route
 GET https://cse341-winter24-1hz0.onrender.com/luigi
-#All Contacts Route
+# All Contacts Route
 GET https://cse341-winter24-1hz0.onrender.com/contacts
-#Mario Contact Info
+# Mario Contact Info
 GET https://cse341-winter24-1hz0.onrender.com/contacts/65a61fc7c9ae3371bad8b039
-#Faby Contact Info
+# Faby Contact Info
 GET https://cse341-winter24-1hz0.onrender.com/contacts/65a6202dc9ae3371bad8b03b
-#Caden Contact Info
+# Caden Contact Info
 GET https://cse341-winter24-1hz0.onrender.com/contacts/65a6208fc9ae3371bad8b03c
+
+# Create New Contact Doc
+POST https://cse341-winter24-1hz0.onrender.com/contacts
+{
+  "firstName": "Jesse",
+  "lastName": "Pinkman",
+  "email": "jesse@polloshermanos.com",
+  "favoriteColor": "Pink",
+  "birthday": "1984-09-24T00:00:00.000Z"
+}
+
+# Update an existing Document
+PUT https://cse341-winter24-1hz0.onrender.com/contacts/65afc403d5956a795d608671
+{
+  "firstName": "Vinicius",
+  "lastName": "Junior",
+  "email": "vini@samba.com",
+  "favoriteColor": "Yellow",
+  "birthday": "2000-07-12T00:00:00.000Z"
+}
+
+# Delete an existing Document
+DELETE https://cse341-winter24-1hz0.onrender.com/contacts/65afc7366837eafc52327a04

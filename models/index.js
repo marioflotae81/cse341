@@ -36,7 +36,57 @@ const fetchOneContact = async (id) => {
     }
 };
 
+const insertContact = async (data) => {
+    try {
+        await client.connect();
+
+        const database = client.db(dbName);
+        const collection = database.collection(collectionName);
+
+        const result = collection.insertOne(data);
+
+        return result
+
+    } catch (error) {
+        console.error('There was an error inserting the data: ', error);
+    }
+};
+
+const updateContact = async (id, data) => {
+    try {
+        await client.connect();
+
+        const database = client.db(dbName);
+        const collection = await database.collection(collectionName);
+
+        const result = collection.updateOne({ _id: new ObjectId(id)}, { $set: data});
+
+        return result;
+
+    } catch (error) {
+        console.error("Can't update: ", error)
+    }
+};
+
+const deleteContact = async (id) => {
+    try {
+        await client.connect();
+
+        const database = client.db(dbName);
+        const collection = database.collection(collectionName);
+
+        const result = collection.deleteOne({_id: new ObjectId(id)});
+
+        return result;
+    } catch (error) {
+        console.error("Can't delete", error);
+    }
+};
+
 module.exports = {
     fetchContacts,
-    fetchOneContact
+    fetchOneContact,
+    insertContact,
+    updateContact,
+    deleteContact
 };
